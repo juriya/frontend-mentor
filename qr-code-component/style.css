@@ -43,10 +43,11 @@ main {
     padding: 0rem 0.8rem 0.9rem 0.8rem;
 }
 
-.qr-code .content h3 {
+.qr-code .content h1 {
     font-weight: 700;
     margin: 0.8rem;
     color: hsl(218, 44%, 22%);
+    font-size: 1.3em;
 }
 
 .qr-code .content p {
