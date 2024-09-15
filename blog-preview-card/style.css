@@ -65,20 +65,20 @@ main {
     display: inline-block;
     background-color: var(--color-yellow);
     font-family: figtree-extraBold;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     border-radius: 3px;
-    padding: 0.3125rem;
+    padding: 0.5rem;
 }
 
 .card .published-date {
     font-family: figtree-semiBold;
     font-size: 0.75rem;
-    margin: 0.5rem 0;
+    margin: 0.75rem 0;
 }
 
 .card h1 {
     font-family: figtree-extraBold;
-    margin: 0.75rem 0;
+    margin: 0.875rem 0;
 }
 
 .card h1:hover {
@@ -91,6 +91,7 @@ main {
     color: var(--color-gray-500);
     font-size: 0.875rem;
     margin: 0.75rem 0;
+    line-height: 1.5;
 }
 
 .card .user {
