@@ -1,0 +1,108 @@
+:root {
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray-500: hsl(0, 0%, 42%);
+    --color-gray-950: hsl(0, 0%, 7%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: figtree-extraBold;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: figtree-semiBold;
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: figtree-variable-italic;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: figtree-variable;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: var(--color-yellow);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card header {
+    margin-bottom: 1rem;
+}
+
+.card header img {
+    width: calc(320px - 2rem);
+    border-radius: 0.75rem;
+}
+
+.card {
+    width: 320px;
+    background-color: var(--color-white);
+    color: var(--color-gray-950);
+    padding: 1rem;
+    border-radius: 0.875rem;
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+}
+
+.card .tag {
+    display: inline-block;
+    background-color: var(--color-yellow);
+    font-family: figtree-extraBold;
+    font-size: 0.75rem;
+    border-radius: 3px;
+    padding: 0.3125rem;
+}
+
+.card .published-date {
+    font-family: figtree-semiBold;
+    font-size: 0.75rem;
+    margin: 0.5rem 0;
+}
+
+.card h1 {
+    font-family: figtree-extraBold;
+    margin: 0.75rem 0;
+}
+
+.card h1:hover {
+    cursor: pointer;
+    color: var(--color-yellow);
+}
+
+.card .description {
+    font-family: figtree-variable;
+    color: var(--color-gray-500);
+    font-size: 0.875rem;
+    margin: 0.75rem 0;
+}
+
+.card .user {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-family: figtree-extraBold;
+    font-size: 0.75rem;
+}
+
+.card .user .user-image {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+}
