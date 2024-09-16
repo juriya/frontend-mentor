@@ -118,8 +118,8 @@ figure {
 .user .public-accounts li {
     width: 100%;
     background-color: var(--color-grey-700);
-    padding: 0.5625rem 0;
-    margin: 0.75rem 0;
+    padding: 0.75rem 0;
+    margin: 0.875rem 0;
     border-radius: 0.5rem;
 }
 
